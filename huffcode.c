@@ -75,7 +75,7 @@ void insertData(struct RawData* rawData, struct RawDataNode* rawDataNode) {
 		i = (i - 1) / 2;
 	}
 	rawData->array[i] = rawDataNode;
-	}
+}
 	
 void buildData(struct RawData* rawData) {
 	int n = rawData->size - 1;
