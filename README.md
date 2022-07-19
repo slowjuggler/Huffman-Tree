@@ -1,7 +1,7 @@
 
 1. Description.
 
-A little code demonstrating Huffman algorithm. Huffman coding assigns codes to characters such that the length of the code depends on the relative frequency or weight of the corresponding character. 
+A little code demonstrating Huffman algorithm (https://en.wikipedia.org/wiki/Huffman_coding). Huffman coding assigns codes to characters such that the length of the code depends on the relative frequency or weight of the corresponding character. 
 
 
 2. Installation.
