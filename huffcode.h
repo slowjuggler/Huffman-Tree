@@ -6,15 +6,15 @@
 #include <string.h>
 
 struct RawDataNode { 
-	char data;
-	unsigned freq; 
-	struct RawDataNode *left, *right;
+    char data;
+    unsigned freq; 
+    struct RawDataNode *left, *right;
 };
 	
 struct RawData { 
-	unsigned size;
-	unsigned density;
-	struct RawDataNode** array;
+    unsigned size;
+    unsigned density;
+    struct RawDataNode** array;
 };
 
 struct RawDataNode* newNode(char data, unsigned freq);
